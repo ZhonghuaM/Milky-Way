@@ -1,53 +1,53 @@
-# Milky Way · 独立浏览器插件
+# Milky Way · Standalone Browser Userscripts
 
-[返回项目总览](https://github.com/ZhonghuaM/Milky-Way)
+[Return to the project overview](https://github.com/ZhonghuaM/Milky-Way)
 
-三个可分别安装的历史油猴插件，保留原有分工。发布文件取自保存的独立版快照，版本与校验值见 [release-manifest.json](release-manifest.json)。
+Three historical Tampermonkey userscripts, each with a separate role and installation. The published files come from saved standalone snapshots; their versions and checksums are listed in [release-manifest.json](release-manifest.json). The archived source files and their original interface language are unchanged.
 
-| 插件 | 版本 | 功能 |
+| Userscript | Version | Purpose |
 | --- | --- | --- |
-| [队列强化助手](userscripts/mwi_safe_enhancer.user.js) | 1.6.10 | 根据选择的装备与新增数量规划强化并确认入队 |
-| [市场守价助手](userscripts/mwi_market_keeper.user.js) | 1.3.3 | 独立维护指定物品的 +20 卖单 |
-| [Task 任务助手](userscripts/mwi_task_queue.user.js) | 1.10.1 | 筛选任务、补料、追加生活动作及结算 |
+| [Queue Enhancer](userscripts/mwi_safe_enhancer.user.js) | 1.6.10 | Plan enhancement for selected equipment and additional quantities, then confirm that the actions have entered the queue |
+| [Market Keeper](userscripts/mwi_market_keeper.user.js) | 1.3.3 | Independently maintain +20 sell listings for selected items |
+| [Task Queue](userscripts/mwi_task_queue.user.js) | 1.10.1 | Select tasks, replenish materials, append skilling actions and handle task settlement |
 
-**历史兼容性提醒：** 此 Task 快照早于符石材料保护更新。使用符石系统时，请关闭“自动出售（总开关）”和背包分类清理，避免自动出售符石耗材。本分支不保证兼容后续游戏更新。
+**Historical compatibility note:** This Task snapshot predates the talisman-material protection update. When using the talisman system, disable the main auto-sell switch and inventory category cleanup to avoid automatically selling talisman consumables. Compatibility with later game updates is not guaranteed.
 
-## 安装
+## Installation
 
-1. 在浏览器安装 Tampermonkey。
-2. 打开所需脚本的文件页，点击 **Raw**，交由 Tampermonkey 安装；也可以复制完整文件到新建脚本。
-3. 停用重复执行相同功能的旧脚本，保存后完整刷新测试服角色页面。
-4. 等待角色、库存和对应模块状态完成同步，再核对面板设置并启动。
+1. Install Tampermonkey in your browser.
+2. Open the file page for the script you want, select **Raw**, and install it through Tampermonkey. Alternatively, copy the complete file into a new userscript.
+3. Disable older scripts that duplicate the same function, save your changes, and fully refresh the test-server character page.
+4. Wait for character, inventory and module state to finish synchronizing, then review the panel settings and start the module.
 
-脚本仅匹配 `test.milkywayidle.com` 与 `test.milkywayidlecn.com`。初次使用时自动任务未启用；已有保存状态可能在完整同步后继续。
+The scripts match only `test.milkywayidle.com` and `test.milkywayidlecn.com`. Automatic work is disabled on first use; previously saved state may resume after a complete synchronization.
 
-## 如何使用
+## Using the tools
 
-**强化：** 准备游戏中保存的 `Enhancing` 配装，选择装备和新增数量，核对材料与计划后启动。显示完成表示计划中的动作已确认入队，并不表示所有 +20 成品已经产出。停止继续发送也不会删除游戏里已有的队列。
+**Enhancement:** Prepare the saved in-game `Enhancing` loadout, select the equipment and additional quantities, and review the materials and plan before starting. A completed plan means its actions have been confirmed in the queue; it does not mean that all +20 items have already been produced. Stopping further submissions does not remove actions already in the game queue.
 
-**市场：** 添加需要监控的物品，确认库存和本人订单已同步，再启用市场维护。它不读取或驱动强化批次。牛铃袋买单是独立选项，默认关闭。
+**Market:** Add the items you want to monitor, confirm that inventory and your own listings have synchronized, then enable market maintenance. It neither reads nor drives enhancement batches. Cowbell-bag buy orders are a separate option, disabled by default.
 
-**Task：** 准备对应技能配装，确认任务筛选和结算设置，再启动。历史快照支持挤奶、采集、伐木、奶酪锻造、制作、缝纫、烹饪和冲泡的生活任务排队，不包含炼金与强化。新动作追加到队尾，保留已有游戏队列。
+**Tasks:** Prepare the appropriate skill loadouts, review task selection and settlement settings, then start. This historical snapshot supports task queueing for Milking, Foraging, Woodcutting, Cheesesmithing, Crafting, Tailoring, Cooking and Brewing. It does not cover Alchemy or Enhancing. New actions are appended to the end of the queue, preserving existing game actions.
 
-三个插件可以按需共存；各自面板分别启停。浏览器冻结、电脑休眠或连接中断仍会影响运行。遇到无法确认的操作，保留已有记录并按面板提示核对，不要通过清空队列或站点数据来绕过提示。
+The three scripts can coexist as needed and are started or stopped from their own panels. Browser freezing, computer sleep and connection loss can still interrupt operation. If an action cannot be confirmed, preserve the existing records and follow the panel guidance; do not clear the queue or site data to bypass the warning.
 
-## 工作关系
+## How the tools relate
 
 ```mermaid
 flowchart LR
-    Game["已登录的测试服页面"] --> Enhancer["强化助手"]
-    Game --> Tasks["Task 助手"]
-    Game --> Market["市场助手"]
-    Enhancer --> Queue["游戏队列"]
+    Game["Signed-in test-server page"] --> Enhancer["Queue Enhancer"]
+    Game --> Tasks["Task Queue"]
+    Game --> Market["Market Keeper"]
+    Enhancer --> Queue["Game queue"]
     Tasks --> Queue
-    Queue --> Output["游戏执行并产出"]
-    Output -->|"选定的 +20 成品"| Market
-    Market --> Orders["本人市场订单"]
+    Queue --> Output["Game execution and output"]
+    Output -->|"Selected +20 items"| Market
+    Market --> Orders["Your market listings"]
 ```
 
-## 离线验证
+## Offline validation
 
-本发布快照通过了下列六组离线测试。测试使用合成数据，不登录游戏；它们不等于在当前游戏版本上的完整实跑保证。
+This release snapshot passed the following six offline test suites. They use synthetic data and do not log into the game; passing them does not guarantee a complete live run against the current game version.
 
 ```bash
 node userscripts/test_mwi_safe_enhancer.js
@@ -58,4 +58,6 @@ node userscripts/test_mwi_task_queue.js
 node userscripts/test_mwi_task_queue_coexistence.js
 ```
 
-源文件保留原有 MIT 标记及作者/参考来源说明，见 [来源与许可说明](THIRD_PARTY_NOTICES.md)。当前 Python 整合实现不在此分支中。
+The source files retain their original MIT markers and author/reference notices; see [Sources and license notices](THIRD_PARTY_NOTICES.md). The current integrated Python implementation is not included in this branch.
+
+<sub><a href="https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/usage-notes.md">Usage notes</a></sub>
