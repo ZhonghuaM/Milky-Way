@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="612pt" viewBox="0 0 864 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Observed skill experience in a short sample</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Observed skill experience in a short sample</dc:title>
+    <dc:date>2026-11-13</dc:date>
+    <dc:description>274.70-second sample. 256332.16 XP recorded during continuous labyrinth intervals; 126019.04 unattributed. No causal attribution or hourly rate.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:source>https://github.com/ZhonghuaM/Milky-Way</dc:source>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>ZhonghuaM</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>© 2026 ZhonghuaM  ·  github.com/ZhonghuaM/Milky-Way</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 864 612 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f6f8fc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 138.24 471.24 
+L 838.08 471.24 
+L 838.08 153 
+L 138.24 153 
+z
+" style="fill: #f6f8fc"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 138.24 471.24 
+L 138.24 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="138.24" y="489.358125" transform="rotate(-0 138.24 489.358125)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 266.887059 471.24 
+L 266.887059 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="266.887059" y="489.358125" transform="rotate(-0 266.887059 489.358125)">25</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 395.534118 471.24 
+L 395.534118 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="395.534118" y="489.358125" transform="rotate(-0 395.534118 489.358125)">50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 524.181176 471.24 
+L 524.181176 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="524.181176" y="489.358125" transform="rotate(-0 524.181176 489.358125)">75</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 652.828235 471.24 
+L 652.828235 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="652.828235" y="489.358125" transform="rotate(-0 652.828235 489.358125)">100</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 781.475294 471.24 
+L 781.475294 153 
+" clip-path="url(#p12b525f448)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #516279" x="781.475294" y="489.358125" transform="rotate(-0 781.475294 489.358125)">125</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="488.16" y="510.971875" transform="rotate(-0 488.16 510.971875)">Observed skill XP increase (thousands)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="185.373878" transform="rotate(-0 129.24 185.373878)">Milking</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="229.142273" transform="rotate(-0 129.24 229.142273)">Foraging</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="272.910668" transform="rotate(-0 129.24 272.910668)">Woodcutting</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="316.679062" transform="rotate(-0 129.24 316.679062)">Cooking</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="360.447457" transform="rotate(-0 129.24 360.447457)">Brewing</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="404.215852" transform="rotate(-0 129.24 404.215852)">Alchemy</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #516279" x="129.24" y="447.984247" transform="rotate(-0 129.24 447.984247)">Enhancing</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 138.24 167.465455 
+L 602.094775 167.465455 
+L 602.094775 194.164175 
+L 138.24 194.164175 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 138.24 211.23385 
+L 138.24 211.23385 
+L 138.24 237.93257 
+L 138.24 237.93257 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 138.24 255.002245 
+L 344.79263 255.002245 
+L 344.79263 281.700965 
+L 138.24 281.700965 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 138.24 298.77064 
+L 246.227165 298.77064 
+L 246.227165 325.46936 
+L 138.24 325.46936 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 138.24 342.539035 
+L 358.562805 342.539035 
+L 358.562805 369.237755 
+L 138.24 369.237755 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 138.24 386.30743 
+L 138.24 386.30743 
+L 138.24 413.00615 
+L 138.24 413.00615 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 138.24 430.075825 
+L 458.577763 430.075825 
+L 458.577763 456.774545 
+L 138.24 456.774545 
+z
+" clip-path="url(#p12b525f448)" style="fill: #246b9e"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 602.094775 167.465455 
+L 714.986583 167.465455 
+L 714.986583 194.164175 
+L 602.094775 194.164175 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 138.24 211.23385 
+L 138.24 211.23385 
+L 138.24 237.93257 
+L 138.24 237.93257 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 344.79263 255.002245 
+L 454.954033 255.002245 
+L 454.954033 281.700965 
+L 344.79263 281.700965 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 246.227165 298.77064 
+L 349.141107 298.77064 
+L 349.141107 325.46936 
+L 246.227165 325.46936 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 358.562805 342.539035 
+L 465.100478 342.539035 
+L 465.100478 369.237755 
+L 358.562805 369.237755 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 138.24 386.30743 
+L 252.749879 386.30743 
+L 252.749879 413.00615 
+L 138.24 413.00615 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 458.577763 430.075825 
+L 560.042213 430.075825 
+L 560.042213 456.774545 
+L 458.577763 456.774545 
+z
+" clip-path="url(#p12b525f448)" style="fill: #d5a253"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="722.190819" y="183.712159" transform="rotate(-0 722.190819 183.712159)">112,079.24</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="145.444235" y="227.480554" transform="rotate(-0 145.444235 227.480554)">0 · no change recorded</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="462.158268" y="271.248949" transform="rotate(-0 462.158268 271.248949)">61,547.08</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="356.345342" y="315.017344" transform="rotate(-0 356.345342 315.017344)">40,984.44</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="472.304713" y="358.785739" transform="rotate(-0 472.304713 358.785739)">63,518.84</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="259.954114" y="402.554134" transform="rotate(-0 259.954114 402.554134)">22,252.72</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="567.246448" y="446.322529" transform="rotate(-0 567.246448 446.322529)">81,968.88</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_17">
+     <path d="M 144.1908 116.327559 
+L 165.1908 116.327559 
+L 165.1908 108.977559 
+L 144.1908 108.977559 
+z
+" style="fill: #246b9e"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="173.5908" y="116.327559" transform="rotate(-0 173.5908 116.327559)">Recorded during continuous labyrinth intervals</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 144.1908 131.739591 
+L 165.1908 131.739591 
+L 165.1908 124.389591 
+L 144.1908 124.389591 
+z
+" style="fill: #d5a253"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="173.5908" y="131.739591" transform="rotate(-0 173.5908 131.739591)">Unattributed at capture</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="77.76" y="46.556719" transform="rotate(-0 77.76 46.556719)">A short XP observation, with attribution limits</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #516279" x="77.76" y="76.058203" transform="rotate(-0 77.76 76.058203)">274.70 seconds · 382,351.20 total XP across seven skills · 12 Nov 2026</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #516279" transform="translate(77.76 547.176523)">Time association is not source attribution. Other rewards may occur within labyrinth intervals.</text>
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #516279" transform="translate(77.76 559.98)">No room-level matching, no talisman comparison and no rate extrapolation; this is not a 35-minute run.</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #64748b" x="838.08" y="597.312" transform="rotate(-0 838.08 597.312)">© 2026 ZhonghuaM  ·  github.com/ZhonghuaM/Milky-Way</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p12b525f448">
+   <rect x="138.24" y="153" width="699.84" height="318.24"/>
+  </clipPath>
+ </defs>
+</svg>

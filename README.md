@@ -35,6 +35,7 @@ The enhancer confirms that **actions have entered the queue**; the game must sti
 
 ## Diagrams and experiments
 
+- [Figure gallery](docs/figure-gallery.md): individual-probe checks, skill-experience observations and source attribution.
 - [Integrated system overview](docs/system-overview.md): goals and module relationships, without implementation details.
 - [Experience-stacking study](docs/experience-study.md): the distinction between server attribute changes and experience actually earned.
 - [Public versions and validation scope](docs/validation.md): what was checked, how it was checked and what the evidence supports.
@@ -42,6 +43,11 @@ The enhancer confirms that **actions have entered the queue**; the game must sti
 ![Test-server G1 general Combat Experience attributes: 18.0%, 19.4%, 20.8% and 22.2%.](assets/experience-stacking.png)
 
 The chart measures a server attribute, not experience earned per hour. The study page explains the method and its limitations.
+
+![Observed skill XP in a 274.70-second sample, with temporal record categories shown separately.](assets/skill-xp-observation.png)
+
+This short record is not a 35-minute benchmark. The gallery retains unclassified
+experience and explains why the interval labels do not establish reward sources.
 
 ## Scope of use
 

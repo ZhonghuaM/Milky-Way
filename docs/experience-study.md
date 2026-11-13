@@ -2,6 +2,9 @@
 
 Test date: 2026-11-12. The following summaries are anonymised. Raw character snapshots, item identifiers and experiment-control scripts are not public.
 
+The [figure gallery](figure-gallery.md) provides the individual-probe comparison
+and skill-by-skill observation table, with attributed PNG and SVG downloads.
+
 ## Verified: G1 general Combat Experience attributes stack
 
 With other equipment and buffs held constant, server **Combat Experience** readings were taken with no probe equipped, each of three probes equipped individually, a two-probe combination and a three-probe combination.

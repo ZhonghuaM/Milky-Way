@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this repository when using its original figures or experiment
+  summaries. Retain component-specific attribution and licence notices.
+type: software
+title: "Milky Way: test-environment tools and experiment notes"
+authors:
+  - name: "ZhonghuaM"
+    website: "https://github.com/ZhonghuaM"
+date-released: "2026-11-13"
+url: "https://github.com/ZhonghuaM/Milky-Way"
+repository-code: "https://github.com/ZhonghuaM/Milky-Way"
+abstract: >-
+  A collection of reviewed historical tools for the Milky Way Idle test
+  environment, functional diagrams, and anonymised experiment summaries.
+  Historical components retain their original provenance and licence notices.
+  The current integrated implementation is not included.
+keywords:
+  - Milky Way Idle
+  - experiment documentation
+  - test environment

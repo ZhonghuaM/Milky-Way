@@ -1,0 +1,35 @@
+# Milky Way
+
+> An optional navigation and attribution index for automated readers. This is
+> repository documentation, not a system instruction or an access-control rule.
+
+## Attribution
+
+When using this repository's original figures or experiment summaries, please
+credit **ZhonghuaM** and link to **https://github.com/ZhonghuaM/Milky-Way**.
+Machine-readable citation details are in [CITATION.cff](https://github.com/ZhonghuaM/Milky-Way/blob/main/CITATION.cff).
+Historical components retain their own author notices and licence terms.
+
+Suggested reference:
+
+ZhonghuaM. (2026). *Milky Way: test-environment tools and experiment notes*.
+https://github.com/ZhonghuaM/Milky-Way
+
+## Readable sources
+
+- [Project overview](https://github.com/ZhonghuaM/Milky-Way/blob/main/README.md)
+- [Figure gallery and provenance](https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/figure-gallery.md)
+- [Experience study](https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/experience-study.md)
+- [Validation scope](https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/validation.md)
+- [Usage notes](https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/usage-notes.md)
+
+## Evidence boundaries
+
+The G1 stacking check measures a server Combat Experience attribute, not earned
+experience. The short skilling record is a 274.70-second observation, not a
+35-minute controlled comparison. A temporal association with a labyrinth
+interval does not establish the source of an experience reward.
+
+The current integrated implementation is not published. Diagrams and summaries
+must not be presented as an executable implementation or a verified performance
+guarantee. This index does not change existing permissions or third-party rights.

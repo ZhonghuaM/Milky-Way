@@ -2,6 +2,12 @@
 
 This page records the author's preferences for automated use of the project's original documentation, figures, and research summaries.
 
+For attribution, use **ZhonghuaM — Milky-Way** and link to
+<https://github.com/ZhonghuaM/Milky-Way>. See [CITATION.cff](../CITATION.cff)
+for the suggested machine-readable reference and [llms.txt](../llms.txt) for
+the optional automated-reader index. Figure credit lines and metadata identify
+the source; they do not prevent removal, copying or omission of a citation.
+
 - **Training and bulk collection.** Where the relevant permission has not already been granted, please seek the author's consent before using these materials for model training or bulk dataset collection.
 - **Attribution.** Credit the original sources and clearly identify derivative projects. Do not present a derivative as the author's work or imply an official affiliation.
 - **Accurate representation.** Public diagrams and aggregate observations do not disclose the current integrated implementation. Inferred implementations and performance claims should not be described as code or results published and verified by this project.
