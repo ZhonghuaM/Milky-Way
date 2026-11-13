@@ -41,7 +41,7 @@ flowchart LR
     Enhancer --> Queue["游戏队列"]
     Tasks --> Queue
     Queue --> Output["游戏执行并产出"]
-    Output --> Market
+    Output -->|"选定的 +20 成品"| Market
     Market --> Orders["本人市场订单"]
 ```
 
