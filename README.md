@@ -104,3 +104,5 @@ those outputs.
 
 This repository contains only labyrinth automation. It has no Cowbell/checkout
 automation and no third-party verification service.
+
+<sub><a href="https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/usage-notes.md">Usage notes</a></sub>
