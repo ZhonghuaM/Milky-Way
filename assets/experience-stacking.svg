@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="756pt" height="446.4pt" viewBox="0 0 756 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T15:35:11.364369</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4 
+L 756 446.4 
+L 756 0 
+L 0 0 
+z
+" style="fill: #f6f8fc"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 83.16 352.656 
+L 733.32 352.656 
+L 733.32 89.28 
+L 83.16 89.28 
+z
+" style="fill: #f6f8fc"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #3d4d61" x="159.200163" y="371.774125" transform="rotate(-0 159.200163 371.774125)">No probe</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #3d4d61" x="325.226721" y="371.774125" transform="rotate(-0 325.226721 371.774125)">1 × G1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #3d4d61" x="491.253279" y="371.774125" transform="rotate(-0 491.253279 371.774125)">2 × G1</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #3d4d61" x="657.279837" y="371.774125" transform="rotate(-0 657.279837 371.774125)">3 × G1</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <path d="M 83.16 352.656 
+L 733.32 352.656 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="357.215063" transform="rotate(-0 73.16 357.215063)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <path d="M 83.16 302.006769 
+L 733.32 302.006769 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="306.565832" transform="rotate(-0 73.16 306.565832)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <path d="M 83.16 251.357538 
+L 733.32 251.357538 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="255.916601" transform="rotate(-0 73.16 255.916601)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <path d="M 83.16 200.708308 
+L 733.32 200.708308 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="205.26737" transform="rotate(-0 73.16 205.26737)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <path d="M 83.16 150.059077 
+L 733.32 150.059077 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="154.618139" transform="rotate(-0 73.16 154.618139)">20</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <path d="M 83.16 99.409846 
+L 733.32 99.409846 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke: #dce2ec; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #3d4d61" x="73.16" y="103.968909" transform="rotate(-0 73.16 103.968909)">25</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="43.394375" y="220.968" transform="rotate(-90 43.394375 220.968)">Server Combat Experience attribute (%)</text>
+    </g>
+   </g>
+   <g id="line2d_17">
+    <path d="M 83.16 170.318769 
+L 733.32 170.318769 
+" clip-path="url(#p74396d1930)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #627084; stroke-width: 1.2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 112.712727 352.656 
+L 205.6876 352.656 
+L 205.6876 170.318769 
+L 112.712727 170.318769 
+z
+" clip-path="url(#p74396d1930)" style="fill: #a1acbf"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 278.739285 352.656 
+L 371.714157 352.656 
+L 371.714157 156.136985 
+L 278.739285 156.136985 
+z
+" clip-path="url(#p74396d1930)" style="fill: #6da2d8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 444.765843 352.656 
+L 537.740715 352.656 
+L 537.740715 141.9552 
+L 444.765843 141.9552 
+z
+" clip-path="url(#p74396d1930)" style="fill: #397dbd"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 610.7924 352.656 
+L 703.767273 352.656 
+L 703.767273 127.773415 
+L 610.7924 127.773415 
+z
+" clip-path="url(#p74396d1930)" style="fill: #145990"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172638" x="159.200163" y="162.128943" transform="rotate(-0 159.200163 162.128943)">18.0%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172638" x="325.226721" y="147.947158" transform="rotate(-0 325.226721 147.947158)">19.4%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172638" x="491.253279" y="133.765374" transform="rotate(-0 491.253279 133.765374)">20.8%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172638" x="657.279837" y="119.583589" transform="rotate(-0 657.279837 119.583589)">22.2%</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172638" x="68.04" y="42.740719" transform="rotate(-0 68.04 42.740719)">G1 combat experience: additive in this check</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #516279" x="68.04" y="55.8" transform="rotate(-0 68.04 55.8)">Test server · 12 Nov 2026 · +1.4 percentage points per probe</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #516279" transform="translate(68.04 398.682813)">One condition-switching experiment. Three single probes were checked separately.</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #516279" transform="translate(68.04 412.92)">Measures a server attribute, not earned XP or XP per hour; G6 and skilling XP were not tested.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p74396d1930">
+   <rect x="83.16" y="89.28" width="650.16" height="263.376"/>
+  </clipPath>
+ </defs>
+</svg>
