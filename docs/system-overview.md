@@ -1,36 +1,36 @@
-# 整合系统：功能概览
+# Integrated system: functional overview
 
-这张图展示目前研究的任务关系。源码与运行配置未公开；图中省略协议、执行顺序、阈值、洗练决策及故障恢复实现。
+This diagram shows the relationships between the tasks under study. The implementation and runtime configuration are not public. Protocols, execution order, thresholds, reroll decisions and recovery mechanisms are omitted.
 
 ```mermaid
 flowchart TB
-    Goal["目标：持续探索迷宫，积累生活经验"] --> Exploration["迷宫探索"]
-    Goal --> Preparation["成长准备"]
-    Preparation --> Stones["生活符石"]
-    Preparation --> Equipment["装备强化"]
-    Preparation --> Tasks["生活任务"]
-    Equipment --> Queue["游戏内待执行队列"]
+    Goal["Goal: sustain labyrinth exploration and gain skilling experience"] --> Exploration["Labyrinth exploration"]
+    Goal --> Preparation["Preparation for character progression"]
+    Preparation --> Stones["Skilling talismans"]
+    Preparation --> Equipment["Equipment enhancement"]
+    Preparation --> Tasks["Skilling tasks"]
+    Equipment --> Queue["Pending game action queue"]
     Tasks --> Queue
-    Queue --> Progress["角色成长与物品产出"]
+    Queue --> Progress["Character progression and item production"]
     Exploration --> Progress
     Stones --> Progress
-    Progress -->|"可维护的物品"| Market["市场维护"]
-    Exploration -. "观测" .-> Status["状态面板与运行记录"]
-    Preparation -. "观测" .-> Status
-    Market -. "观测" .-> Status
-    Status --> Review["检查结果，调整下一阶段目标"]
+    Progress -->|"Eligible items"| Market["Market maintenance"]
+    Exploration -. "Observe" .-> Status["Status display and runtime records"]
+    Preparation -. "Observe" .-> Status
+    Market -. "Observe" .-> Status
+    Status --> Review["Review results and adjust the next stage's goals"]
 ```
 
-**迷宫是主要工作。** 强化和任务可以提前准备后续队列；符石与装备服务于角色成长。状态面板分别呈现各项工作的进展和需要关注的问题。
+**Labyrinth exploration is the primary activity.** Enhancement and Task work can prepare subsequent queued actions, while talismans and equipment support character progression. The status display reports each activity's progress and any issues requiring attention.
 
-图中的箭头表示功能关系，不代表发送顺序或线程关系。它不包含制作配方、最优词条组合、自动采购规则或可直接执行的策略。
+The arrows represent functional relationships, not request ordering or thread relationships. The diagram does not specify crafting recipes, optimal modifier combinations, automatic purchasing rules or an executable strategy.
 
-## 经验研究关注什么
+## Questions for the experience study
 
-| 问题 | 需要什么证据 |
+| Question | Evidence needed |
 | --- | --- |
-| 多颗符石的经验属性是否能共同生效？ | 可比较的服务器属性读数 |
-| 属性增加后，每次行动实际多得多少经验？ | 相同条件下的行动经验记录 |
-| 哪种配置能在固定时间内获得更多迷宫经验？ | 多轮、同口径的完整时间窗口 |
+| Can experience modifiers on several talismans apply together? | Comparable server attribute readings |
+| How much additional experience is actually earned per action after an attribute increases? | Action-level experience records under otherwise equivalent conditions |
+| Which configuration yields more labyrinth experience in a fixed period? | Repeated complete time windows measured on the same basis |
 
-这三个问题使用不同的证据。属性叠加检查不能直接替代迷宫效率实验，也不能直接给出最优楼层或收益保证。
+These questions require different evidence. An attribute-stacking check cannot replace a labyrinth-efficiency experiment, establish an optimal floor or guarantee a particular return.

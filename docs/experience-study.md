@@ -1,50 +1,50 @@
-# 经验叠加与实际经验观测
+# Experience stacking and observed experience gains
 
-测试日期：2026-11-12。以下为脱敏汇总；原始角色快照、物品标识和实验执行脚本未公开。
+Test date: 2026-11-12. The following summaries are anonymised. Raw character snapshots, item identifiers and experiment-control scripts are not public.
 
-## 已验证：G1 通用战斗经验属性叠加
+## Verified: G1 general Combat Experience attributes stack
 
-固定其他装备与增益条件，依次读取无探针、三个探针各自单独装备、两颗组合和三颗组合时的服务器 **Combat Experience** 属性。
+With other equipment and buffs held constant, server **Combat Experience** readings were taken with no probe equipped, each of three probes equipped individually, a two-probe combination and a three-probe combination.
 
-![G1 通用战斗经验属性：无探针 18.0%，单颗 19.4%，双颗 20.8%，三颗 22.2%。每颗贡献 1.4 个百分点。](../assets/experience-stacking.png)
+![G1 general Combat Experience attribute: 18.0% without a probe, 19.4% with one, 20.8% with two and 22.2% with three. Each probe contributes 1.4 percentage points.](../assets/experience-stacking.png)
 
-| 装备条件 | 服务器 Combat Experience 属性 | 相对基线增加 |
+| Equipment condition | Server Combat Experience attribute | Increase from baseline |
 | --- | ---: | ---: |
-| 无探针 | 18.0% | 0.0 个百分点 |
-| 单颗 G1；三个探针分别测试 | 均为 19.4% | 均为 1.4 个百分点 |
-| 两颗 G1 | 20.8% | 2.8 个百分点 |
-| 三颗 G1 | 22.2% | 4.2 个百分点 |
+| No probe | 18.0% | 0.0 percentage points |
+| One G1 probe; all three tested separately | 19.4% each | 1.4 percentage points each |
+| Two G1 probes | 20.8% | 2.8 percentage points |
+| Three G1 probes | 22.2% | 4.2 percentage points |
 
-本次条件切换中，三颗 G1 通用战斗经验词条的服务器属性增量符合加法叠加。
+Across these condition changes, the server attribute increments from the three G1 general Combat Experience modifiers were consistent with additive stacking.
 
-**这不是实际经验奖励或经验/小时测试。** 这是单轮条件切换实验，未验证生活经验词条、G6 或所有其他增益组合，不能解读为“实际经验提高 4.2%”。
+**This was not a test of actual experience rewards or experience per hour.** It was one sequence of condition changes. Skilling experience modifiers, G6 modifiers and all other buff combinations were not tested. The result must not be interpreted as “4.2% more experience earned”.
 
-## 另一次观测：实际技能经验计数
+## A separate observation: actual skill-experience counters
 
-| 指标 | 匿名汇总 |
+| Measure | Anonymised summary |
 | --- | ---: |
-| 有效观测时长 | 274.70 秒，约 4 分 35 秒 |
-| 七种生活技能累计经验增量 | 382,351.20 |
-| 连续迷宫运行区间内记录的增量 | 256,332.16 |
-| 来源未确定的增量 | 126,019.04 |
+| Effective observation time | 274.70 seconds, approximately 4 minutes 35 seconds |
+| Total experience increase across seven skilling skills | 382,351.20 |
+| Increase recorded during continuous labyrinth intervals | 256,332.16 |
+| Increase of undetermined origin | 126,019.04 |
 
-七种技能为挤奶、采集、伐木、烹饪、冲泡、炼金、强化；排除奶酪锻造、制作和缝纫。
+The seven skills were Milking, Foraging, Woodcutting, Cooking, Brewing, Alchemy and Enhancing. Cheesesmithing, Crafting and Tailoring were excluded.
 
-这份记录测量实际技能经验计数的变化，但没有逐房奖励关联。即使在连续迷宫区间，也不能排除同时领取的其他经验。因此表中使用“区间内记录的增量”，不把它全部归因于迷宫奖励。
+This record measures changes in actual skill-experience counters, but it does not associate rewards with individual rooms. Other experience may have been claimed during continuous labyrinth intervals. The table therefore reports an “increase recorded during” those intervals rather than attributing the entire increase to labyrinth rewards.
 
-它不是完整的 35 分钟样本，也没有符石方案对照，不用于推算稳定经验/小时或宣称优化收益。它与上面的属性叠加检查是两次不同的观测。
+This was not a complete 35-minute sample and did not compare talisman configurations. It cannot support an estimate of sustained experience per hour or a claim of optimisation gains. It is a separate observation from the attribute-stacking check above.
 
-## 下一步怎样验证收益
+## How actual gains could be tested next
 
 ```mermaid
 flowchart TB
-    Conditions["固定其他装备与增益条件"] --> Attribute["属性叠加检查 · 已完成"]
-    Attribute --> Readings["无探针、各单颗、双颗、三颗"]
-    Readings --> Result["比较服务器属性增量"]
-    Conditions --> Reward["实际经验收益对照 · 待验证"]
-    Reward --> Windows["交替测试方案，重复完整 35 分钟窗口"]
-    Windows --> Measure["记录经验增量与全程耗时"]
-    Measure --> Compare["比较每窗口实际经验，报告样本数与波动"]
+    Conditions["Hold other equipment and buffs constant"] --> Attribute["Attribute-stacking check: completed"]
+    Attribute --> Readings["No probe, each single probe, two probes, three probes"]
+    Readings --> Result["Compare server attribute increments"]
+    Conditions --> Reward["Controlled comparison of earned experience: pending"]
+    Reward --> Windows["Alternate configurations across repeated complete 35-minute windows"]
+    Windows --> Measure["Record experience increases and total elapsed time"]
+    Measure --> Compare["Compare experience per window and report sample size and variation"]
 ```
 
-完整时间窗口应包括赶路、失败、战斗和等待。结果展示应同时保留配置条件与异常窗口，避免只挑选顺利完成的片段。这里仅说明实验思路，不提供内部控制程序或策略参数。
+Complete time windows should include travel, failures, combat and waiting. Results should retain configuration details and abnormal windows, rather than selecting only successful segments. This outlines an experimental approach; it does not provide the internal control program or strategy parameters.

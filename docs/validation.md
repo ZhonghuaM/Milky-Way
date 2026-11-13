@@ -1,26 +1,26 @@
-# 公开版本与验证范围
+# Public versions and validation scope
 
-发布整理日期：2026-11-13。各功能分支从明确的历史快照建立；未迁移工作目录、个人运行数据或旧 Git 历史。
+Release preparation date: 2026-11-13. Each feature branch was created from a specific historical snapshot. Working directories, personal runtime data and earlier Git histories were not migrated.
 
-| 内容 | 来源 | 本次验证 |
+| Component | Source | Validation for this release |
 | --- | --- | --- |
-| 独立油猴插件 | 强化 1.6.10、市场 1.3.3、Task 1.10.1 的冻结文件 | 六组离线测试通过；Task 196/196，共存覆盖六种加载顺序 |
-| 独立迷宫工具 | 原仓库 `61e8c1f654479726325f5c7b8f72ca2670f24c70` | 11 项离线单元测试通过；未进行本次浏览器实跑 |
-| 旧 Cowbell 测试工具 | 原仓库 `bc77aaf262c0f8bd6b5999e8adaf08487022a9cb` | 15 项离线防护测试、CLI 语法及占位示例检查通过；未连接游戏或结算服务 |
-| 经验属性叠加 | 2026-11-12 私有实验记录的匿名汇总 | 三个单颗、双颗与三颗组合读数交叉核对 |
-| 实际技能经验观测 | 2026-11-12 短时经验记录的匿名汇总 | 校验时长与分类合计；没有对照试验或逐房归因 |
+| Standalone userscripts | Frozen enhancer 1.6.10, market 1.3.3 and Task 1.10.1 files | Six offline test suites passed; Task 196/196; coexistence covered six loading orders |
+| Standalone labyrinth tool | Original repository at `61e8c1f654479726325f5c7b8f72ca2670f24c70` | 11 offline unit tests passed; no browser run was performed for this release |
+| Historical Cowbell test tool | Original repository at `bc77aaf262c0f8bd6b5999e8adaf08487022a9cb` | 15 offline safeguard tests, CLI syntax checks and placeholder-example checks passed; no game or checkout-service connections |
+| Experience attribute stacking | Anonymised summary of private experiment records dated 2026-11-12 | Readings cross-checked for three individual probes and the two-probe and three-probe combinations |
+| Actual skill-experience observation | Anonymised summary of a short experience record dated 2026-11-12 | Duration and category totals checked; no controlled comparison or room-level attribution |
 
-“测试通过”仅覆盖表中所列对象。历史插件的离线验证不证明当前整合系统可复现，也不保证游戏后续更新下的兼容性。经验属性叠加不等于实际经验收益提升。
+A passing test applies only to the component and checks listed above. Offline validation of historical scripts does not establish that the current integrated system can be reproduced, nor does it guarantee compatibility with future game updates. Attribute stacking does not establish an increase in experience actually earned.
 
-## 发布边界
+## Publication scope
 
-公开内容包括历史独立工具、适用的离线测试、占位配置、说明图与匿名汇总。当前整合系统的运行实现、策略参数和内部测试代码不在公开范围内。
+Public materials include historical standalone tools, relevant offline tests, placeholder configurations, diagrams and anonymised summaries. The current integrated system's implementation, strategy parameters and internal test code are outside the publication scope.
 
-真实账号、登录状态、运行日志、交易细节、原始实验快照及本机路径均不随发布包提供。旧 Notebook 未纳入 Cowbell 分支的运行入口；其示例存在顺序执行问题。
+Real account data, login state, runtime logs, transaction details, raw experiment snapshots and local machine paths are excluded. The historical notebook is not included as a Cowbell branch entry point because its examples have sequential-execution issues.
 
-## 版本可核对性
+## Checking the published versions
 
-- 油猴分支的 `release-manifest.json` 列出三份冻结源码的 SHA-256。
-- 迷宫分支只对 README 增加来源导航，保留旧实现。
-- Cowbell 分支记录历史来源及额外的测试环境检查，未使用当前整合实现。
-- 本仓库的汇总和图片仅陈述已有证据；后续完整时间窗口的收益比较尚待验证。
+- The userscript branch's `release-manifest.json` lists SHA-256 hashes for the three frozen source files.
+- The labyrinth branch adds provenance links to the README while retaining the historical implementation.
+- The Cowbell branch documents its historical source and additional test-environment checks. It does not use the current integrated implementation.
+- Summaries and figures report only the available evidence. Comparisons of actual returns across complete time windows remain to be tested.
