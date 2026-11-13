@@ -22,11 +22,11 @@ flowchart TB
     Choice --> Cowbell["独立 Cowbell 测试工具"]
     Browser --> Enhancer["强化：选择装备与数量"]
     Browser --> Tasks["Task：筛选与安排生活任务"]
-    Browser --> Market["市场：维护指定物品订单"]
+    Browser --> Market["市场：维护选定的 +20 卖单"]
     Enhancer --> Queue["游戏队列"]
     Tasks --> Queue
     Queue --> Production["游戏执行并产出"]
-    Production --> Market
+    Production -->|"选定的 +20 成品"| Market
     Maze --> Explore["检查页面并维护迷宫探索"]
     Cowbell --> Test["测试环境购买流程"]
 ```

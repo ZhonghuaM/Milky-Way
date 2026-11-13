@@ -14,7 +14,7 @@ flowchart TB
     Queue --> Progress["角色成长与物品产出"]
     Exploration --> Progress
     Stones --> Progress
-    Progress --> Market["市场维护"]
+    Progress -->|"可维护的物品"| Market["市场维护"]
     Exploration -. "观测" .-> Status["状态面板与运行记录"]
     Preparation -. "观测" .-> Status
     Market -. "观测" .-> Status
