@@ -56,3 +56,5 @@ The tests use synthetic pages and browser mocks. They do not open a browser, con
 The release contains the standalone CLI, placeholder account configuration, dependencies, ignore rules, documentation, and offline safety tests. The historical exploratory notebook is excluded.
 
 The original [additional terms](LICENSE-ADDITIONAL-TERMS.md) are preserved. The source snapshot did not include a separate main license despite referring to one in those terms; this branch does not claim a new blanket MIT license. Other feature branches have their own provenance and notices.
+
+<sub><a href="https://github.com/ZhonghuaM/Milky-Way/blob/main/docs/usage-notes.md">Usage notes</a></sub>
