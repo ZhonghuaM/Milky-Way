@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+accounts.json
+*state*.json
+*.log
+logs/
+screenshots/
+profiles/
+.milkyway_*/
